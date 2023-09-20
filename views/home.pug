@@ -1,0 +1,50 @@
+extend base.pug
+
+block script
+  script(src='/static/index.js')
+
+block style 
+  style
+      include ../static/style.css
+
+block content 
+    section#introsection 
+      div  Welcome to Yash's Dance Academy
+      div  Learn how to Dance 
+
+    section#mission 
+        <h3> Our mission </h3>
+          div.card
+            | Dance perfection 
+            div.card-box
+                div.card-img
+                    img(src="/static/dance1.png")
+                div.card-content
+                  p this is the best dance academy i ever seen in my life 
+
+
+          div.card
+            | Dance the way like 
+            div.card-box
+                div.card-img
+                    img(src="/static/dance2.png")
+                div.card-content
+                  p this is the best dance academy i ever seen in my life 
+
+          div.card
+           | Expert training 
+           div.card-box
+                div.card-img
+                    img(src="/static/dance3.png")
+                div.card-content
+                  p this is the best dance academy i ever seen in my life  
+    
+    section#sponsor  
+      <h3>Our Sponsor 
+      div#sponsors
+        img(src="/static/microsoft.png" Class="spimage")
+        img(src="/static/google.png" Class="spimage")
+        img(src="/static/amazon.png" Class="spimage")
+        img(src="/static/apple.png" Class="spimage")
+
+

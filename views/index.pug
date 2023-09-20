@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      ul
+        div#logo
+            img(src="/static/dance1.png")
+            | HDA 
+        li #[a(href="/") Home] 
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/") Class Info]
+        li #[a(href="/") Contact us]
+
+    section#introsection 
+      div  Welcome to Yash's Dance Academy
+      div  Learn how to Dance 
+
+    section#mission 
+        <h3> Our mission </h3>
+          div.card
+            | Dance perfection 
+            div.card-box
+                div.card-img
+                    img(src="/static/dance1.png")
+                div.card-content
+                  p this is the best dance academy i ever seen in my life 
+
+
+          div.card
+            | Dance the way like 
+            div.card-box
+                div.card-img
+                    img(src="/static/dance2.png")
+                div.card-content
+                  p this is the best dance academy i ever seen in my life 
+
+          div.card
+           | Expert training 
+           div.card-box
+                div.card-img
+                    img(src="/static/dance3.png")
+                div.card-content
+                  p this is the best dance academy i ever seen in my life  
+    
+    section#sponsor  
+      <h3>Our Sponsor 
+      div#sponsors
+        img(src="/static/microsoft.png" Class="spimage")
+        img(src="/static/google.png" Class="spimage")
+        img(src="/static/amazon.png" Class="spimage")
+        img(src="/static/apple.png" Class="spimage")
+
+    footer#footer 
+        | Copyright @ 2023yashdanceacademy.com
+
+    script
+      include ../static/index.js
+    

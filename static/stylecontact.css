@@ -1,0 +1,28 @@
+h3{
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url("/static/tim-gouw-tYpp-eIZH44-unsplash.jpg");
+    height: 80vh;
+}
+.myinput{
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    outline: none;
+}
+
+.btn{
+    margin: 10px 0px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
